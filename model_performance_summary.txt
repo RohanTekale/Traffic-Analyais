@@ -1,0 +1,16 @@
+
+| Model                      | RMSE   | MAE    | MAPE   | R^2    |
+|----------------------------|--------|--------|--------|--------|
+| Random Forest Regressor    | 0.0276 | 0.0007 | 0.0000 | 1.0000 |
+| Gradient Boosting Regressor| 0.0202 | 0.0005 | 0.0000 | 1.0000 |
+| XGBoost Regressor          | 0.0686 | 0.0293 | 0.0011 | 1.0000 |
+### Best Model: Gradient Boosting
+- **RMSE**: 0.0202
+- **MAE**: 0.0005
+- **MAPE**: 0.0000
+- **R^2**: 1.0000
+
+### Insights and Recommendations
+- The Gradient Boosting performed the best with the lowest RMSE and highest R^2 values, indicating better accuracy and goodness of fit.
+- The feature importance plot highlights the most influential features, which can guide further data collection and feature engineering efforts.
+- For deployment, consider further tuning the hyperparameters and retraining the model with more data to improve performance and robustness.

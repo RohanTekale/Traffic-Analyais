@@ -1,0 +1,32 @@
+
+### Model Performance Summary
+1. **Random Forest Regressor**
+
+   - RMSE: 0.0235
+   - MAE: 0.0007
+   - MAPE: 0.0000
+   - R^2: 1.0000
+
+2. **Gradient Boosting Regressor**
+   - RMSE: 0.0470
+   - MAE: 0.0153
+   - MAPE: 0.0005
+   - R^2: 1.0000
+
+3. **XGBoost Regressor**
+   - RMSE: 0.0686
+   - MAE: 0.0293
+   - MAPE: 0.0011
+   - R^2: 1.0000
+
+### Best Model: Random Forest
+- **RMSE**: 0.0235
+- **MAE**: 0.0007
+- **MAPE**: 0.0000
+- **R^2**: 1.0000
+
+### Insights and Recommendations
+- The Random Forest performed the best with the lowest RMSE and highest R^2 values, indicating better accuracy and goodness of fit.
+- The feature importance plot highlights the most influential features, which can guide further data collection and feature engineering efforts.
+- For deployment, consider further tuning the hyperparameters and retraining the model with more data to improve performance and robustness.
+
